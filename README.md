@@ -28,7 +28,11 @@ The middelware folder in the root folder contains the auth.ts file where the ses
 The controllers folder contain the functions responsible for  post and get  data.
 This data is stored  and read in and from the id.json file located in the data folder in the root folder.
 
+The saveData.ts file is contains the function responsible to saving data into the id.json file. Its saves data in the request body into the file
+
 ### Routes
  The routes folder contain all routes for post and get.
+ 
+ A post request made to route api/proxy/save/:id will save data in req.body to file with id as the id in the params.
  
  
